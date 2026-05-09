@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 500;
+}
+
+.password-hidden {
+    color: transparent;
+    user-select: none;
+}
+
+.password-shown {
+    color: #dc3545 !important;
+    font-family: monospace;
+    letter-spacing: 1px;
+}
+
+.strength {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+.strength-0 { background: #dc3545; color: white; }
+.strength-1 { background: #fd7e14; color: white; }
+.strength-2 { background: #ffc107; color: black; }
+.strength-3 { background: #28a745; color: white; }
+.strength-4 { background: #20c997; color: white; }
+
+.fa-vault {
+    color: #ffd700;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.table th {
+    border-top: none;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: white;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(102, 126, 234, 0.1);
+}
